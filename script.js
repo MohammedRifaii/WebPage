@@ -17,8 +17,7 @@ let vid4 = document.getElementById("vid4");
 let vid5 = document.getElementById("vid5");
 let vid6 = document.getElementById("vid6");
 
-let count=3;
-
+let count=3; window.location.href = "Signup.html";
 
 vid1.onplay = function() {
   
