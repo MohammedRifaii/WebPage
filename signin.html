@@ -7,7 +7,7 @@
     </head>
 
     <body>
-        <div class="g-signin2" data-onsuccess="onSignIn;"></div>
+        <div class="g-signin2" onclick="SignIn" data-onsuccess="onSignIn;"></div>
         <button style="display:block"> <a href="index.html" onclick="signOut();">Sign out</a> </button>
 
 
@@ -19,6 +19,13 @@
     var auth2 = gapi.auth2.getAuthInstance();
     auth2.signOut().then(function () {
       console.log('User signed out.');
+        
+    });
+       function SignIn() {
+    var auth2 = gapi.auth2.getAuthInstance();
+    auth2.signIn().then(function () {
+      console.log('User signed in.');
+        
     });
       function onSignIn(googleUser) {
         // Useful data for your client-side scripts:
