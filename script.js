@@ -18,7 +18,7 @@ let vid5 = document.getElementById("vid5");
 let vid6 = document.getElementById("vid6");
 
 let count=3;
-window.location.href = "Signin.html";
+
 
 vid1.onplay = function() {
   
