@@ -34,7 +34,7 @@ vid2.onplay = function() {
   if(count<=0)
   {vid2.pause();
     alert("You have already used your 3 limit vidoes pls sign in to enjoy a full use");
-    window.location.href = "Signup.html";
+    window.location.href = "Signin.html";
   }
 else {
   count--;
@@ -44,7 +44,7 @@ vid3.onplay = function() {
   
   if(count<=0)
   {alert("You have already used your 3 limit vidoes pls sign in to enjoy a full use");
-  window.location.href = "Signup.html";}
+  window.location.href = "Signin.html";}
 else {
   count--;
   alert(count+" Videos left To watch");
@@ -71,7 +71,7 @@ vid6.onplay = function() {
   
   if(count<=0)
   {alert("You have already used your 3 limit vidoes pls sign in to enjoy a full use");
-  window.location.href = "Signup.html";}
+  window.location.href = "Signin.html";}
 else {
   count--;
   alert(count+" Videos left To watch");
