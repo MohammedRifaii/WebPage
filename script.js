@@ -17,13 +17,14 @@ let vid4 = document.getElementById("vid4");
 let vid5 = document.getElementById("vid5");
 let vid6 = document.getElementById("vid6");
 
-let count=3; window.location.href = "Signin.html";
+let count=3;
+window.location.href = "Signin.html";
 
 vid1.onplay = function() {
   
   if(count<=0)
   {alert("You have already used your 3 limit vidoes pls sign in to enjoy a full use");
-  window.location.href = "Signinhtml";}
+  window.location.href = "Signin.html";}
 else {
   count--;
   alert(count+" Videos left To watch");
@@ -52,7 +53,7 @@ vid4.onplay = function() {
   
   if(count<=0)
   {alert("You have already used your 3 limit vidoes pls sign in to enjoy a full use");
-  window.location.href = "Signup.html";}
+  window.location.href = "Signin.html";}
   else{
   count--;
   alert(count+" Videos left To watch");
@@ -61,7 +62,7 @@ vid5.onplay = function() {
   
   if(count<=0)
   {alert("You have already used your 3 limit vidoes pls sign in to enjoy a full use");
-  window.location.href = "Signup.html";}
+  window.location.href = "Signin.html";}
 else {
   count--;
   alert(count+" Videos left To watch");
