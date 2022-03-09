@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+        <head>
+            <title> Welcome To Our HomePage</title>
+        
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width", initial-scale="1">
+    
+        <link rel="stylesheet" href="./style.css">
+</head>
+<body id="bdd">
+ 
+
+<div class="topnav" id="myTopnav">
+    <a href="#home" id="Home" class="active">Home</a>
+    <a href="#news" id="News">News</a>
+    <a href="#contact" id="Contact">Contact</a>
+    <a href="#about" id="About">About</a>
+    <a href="javascript:void(0);" class="icon" onclick="navfunc">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+      <div style="padding:10px">
+    <select class="Lang" id="selector" name="selects" onchange="LangSelector()">
+        <option id="English">English</option>
+        <option id="Arabic" dir="rlt">العربية</option>
+    </select>
+    <h3 id="welcoming"></h3>
+    <h2 id="EldenRing"></h2>
+    <video id="vid1" width="480" height="360" controls>
+        <source src="./Elden_Ring.mp4" type="video/mp4">
+
+      Your browser does not support the video tag.
+      </video>   <video id="vid2" width="480" height="360" controls>
+        <source src="./Elden_Ring2.mp4" type="video/mp4" >
+
+      Your browser does not support the video tag.
+      </video>   <video id="vid3" width="480" height="360" controls>
+        <source src="./Elden_Ring3.mp4" type="video/mp4" >
+
+      Your browser does not support the video tag.
+      </video>
+      <h2 id="Darksoul"></h2>
+    <video id="vid4" width="480" height="360" controls>
+        <source src="./Darksouls1.mp4" type="video/mp4" >
+
+      Your browser does not support the video tag.
+      </video>
+      <video id="vid5" width="480" height="360" controls>
+        <source src="./Darksouls2.mp4" type="video/mp4" >
+        
+
+      Your browser does not support the video tag.
+      </video>
+      <video id="vid6" width="480" height="360" controls>
+        <source src="./Darksoul3.mp4" type="video/mp4" >
+        
+
+      Your browser does not support the video tag.
+      </video>
+</div>
+      <script src="./script.js"></script>
+      <script src="https://kit.fontawesome.com/b9442e31a7.js" crossorigin="anonymous"></script>
+        </body>
+ 
+
+</html>
