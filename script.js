@@ -23,7 +23,7 @@ vid1.onplay = function() {
   
   if(count<=0)
   {alert("You have already used your 3 limit vidoes pls sign in to enjoy a full use");
-  window.location.href = "Signup.html";}
+  window.location.href = "Signinhtml";}
 else {
   count--;
   alert(count+" Videos left To watch");
